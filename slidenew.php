@@ -107,27 +107,24 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="../images/mountaino.jpg" width="1000" height="300" ">
+  <img src="assets/img/mountaino.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="../images/airtrajoinnn.jpg" width="1000" height="300" ">
+  <img src="assets/img/airtrajoinnn.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="../images/k.jpg" width="1000" height="300" ">
+  <img src="assets/img//k.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="../images/AirTraa.jpg" width="1000" height="300" ">
+  <img src="assets/img/AirTraa.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
-
-
-
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
