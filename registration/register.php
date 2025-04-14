@@ -1,9 +1,9 @@
-<?php include('server.php'); ?>
+<?php //include('server.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>AirTra: Search | Travel | Explore</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 </head>
 <body>
 	<form1> <a class="btn" href="../index.php">AIRTRA Home</a> </form1>
@@ -15,7 +15,6 @@
 		<!-- display validation errors here -->
 		<?php include('errors.php'); ?>
 		<div class="input-group">
-<!-- <label>Full Name</label> -->
 			<input type="text" name="username" placeholder="Full Name" style="height:35px" size="36" value="<?php echo $username; ?>">
 		</div>
 				<div class="input-group">
@@ -64,7 +63,7 @@
 
 <style>
  body{
-    background-image: url("../images/airtrajoin.jpg");
+    background-image: url("../assets/img/airtrajoin.jpg");
     background-size: 1400px 900px;
     background-repeat: no-repeat;
     }

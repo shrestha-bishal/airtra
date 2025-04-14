@@ -3,7 +3,7 @@
  $username = "";
  $gender = "";
  $phnumber = "";
-  $email = "";
+ $email = "";
  $staddress = "";
  $state = "";
  $country = "";
@@ -74,8 +74,7 @@
  	}
  }
 
-
-  //log user in from login page
+ //log user in from login page
  if (isset($_POST['login'])) {
  	$username = addslashes($_POST['username']);
  	$password = addslashes($_POST['password']);
@@ -114,8 +113,6 @@
  		}  }
  	}
 }
-
-
 
  //logout
  if (isset($_GET['logout'])) {
