@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>AirTra: Search | Travel | Explore</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
 	<form1> <a class="btn" href="../index.php">AIRTRA Home</a> </form1>
@@ -13,7 +13,7 @@
 
 	<form method="post" action="register.php">
 		<!-- display validation errors here -->
-		<?php include('errors.php'); ?>
+		<?php // include('errors.php'); ?>
 		<div class="input-group">
 			<input type="text" name="username" placeholder="Full Name" style="height:35px" size="36" value="<?php echo $username; ?>">
 		</div>
@@ -63,7 +63,7 @@
 
 <style>
  body{
-    background-image: url("../assets/img/airtrajoin.jpg");
+    background-image: url("../public/assets/img/airtrajoin.jpg");
     background-size: 1400px 900px;
     background-repeat: no-repeat;
     }
