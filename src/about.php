@@ -29,8 +29,8 @@
 	<h3 style="color:white">Developer</h3>
 </h3>
 <p style="font-size: 20px"> 
-	<p style="color: white">
-		Bishal Shrestha <br>
+	<p>
+		<a style="color: white" href="https://github.com/shrestha-bishal">Bishal Shrestha </a><br>
 	</p>
 </p>
 <div>
@@ -41,8 +41,7 @@
 </html>
 <style>
     body{
-    background-image: url("assets/img/AirTra.jpg");
-    background-size: 1400px 900px;
+    background-image: url("public/assets/img/AirTra.jpg");
     background-repeat: no-repeat;
  }
  </style> 
