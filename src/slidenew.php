@@ -107,22 +107,22 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="assets/img/mountaino.jpg" width="1000" height="300" ">
+  <img src="public/assets/img/mountaino.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="assets/img/airtrajoinnn.jpg" width="1000" height="300" ">
+  <img src="public/assets/img/airtrajoinnn.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="assets/img//k.jpg" width="1000" height="300" ">
+  <img src="public/assets/img/k.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="assets/img/AirTraa.jpg" width="1000" height="300" ">
+  <img src="public/assets/img/AirTraa.jpg" width="1000" height="300" ">
   <div class="text">AIRTRA : SEARCH | TRAVEL | EXPLORE</div>
 </div>
 
