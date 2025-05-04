@@ -42,6 +42,7 @@
 <style>
     body{
     background-image: url("public/assets/img/AirTra.jpg");
+    background-size: 1400px 900px;
     background-repeat: no-repeat;
  }
  </style> 

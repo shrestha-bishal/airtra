@@ -3,12 +3,12 @@
 <html>
 	<head>
 		<title>AirTra: Search | Travel | Explore</title>
-		<link rel="stylesheet" type="text/css" href="../assets/css/loginstyle.css">
+		<link rel="stylesheet" type="text/css" href="../public/assets/css/loginstyle.css">
 	</head>
 	<body>
 		<div id="frm">
 			<form method="post" action="login.php"> 
-			<?php include('errors.php'); ?>
+			<?php // include('errors.php'); ?>
 
 			<p>
 				<label>Email id:&nbsp;&nbsp;</label>
@@ -32,7 +32,7 @@
 
 <style>
  body{
-    background-image: url("../assets/img/airtrajoin.jpg");
+    background-image: url("../public/assets/img/airtrajoin.jpg");
     background-size: 1400px 900px;
     background-repeat: no-repeat;
     }
