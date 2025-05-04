@@ -1,1 +1,9 @@
+RewriteEngine On
+RewriteBase /airtra/
+
+# If the requested file exists in /src, serve it
+RewriteCond %{DOCUMENT_ROOT}/airtra/src/$1 -f
+RewriteRule ^(.*\.php)$ src/$1 [L]
+
+# If the base path is requested (i.e., just /airtra/), load index
 DirectoryIndex src/index.php
