@@ -71,7 +71,7 @@ $query = "SELECT *FROM ecash WHERE userid='$userid'";
 <html>
 <head>
 
-    <link rel="stylesheet" type="text/css" href="../registration/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
 	<div class="header">
@@ -107,7 +107,7 @@ $query = "SELECT *FROM ecash WHERE userid='$userid'";
 
 <style>
  body{
-    background-image: url("../images/ecash.jpg");
+    background-image: url("../public/assets/img/ecash.jpg");
 
       background-size: 450px 400px;
     background-repeat: repeat;

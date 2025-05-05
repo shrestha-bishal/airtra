@@ -20,22 +20,6 @@ $airlinesid = addslashes($_POST['airlinesid']);
 $seatno = addslashes($_POST['seatno']);
 $code = addslashes($_POST['code']);
 
-
-/*
-//if book now button is clicked proceed to booking
-$_SESSION['namee']='Bishal';
-echo $_SESSION['namee'];
-<$_SESSION['namee']='Bishal';
-echo $_SESSION['namee'];
-if (isset($_POST['booknow'])) {
-
-  $passengername = $_SESSION['passengername'];
-  $email = addslashes($_POST['email']);
-
-$airlinesid = addslashes($_POST['airlinesid']);
-$seatno = addslashes($_POST['seatno']);
-$code = addslashes($_POST['code']);  */
-
 //ensure that the form fields are filled properly
 if(empty($passengername)) {
  		array_push($errors, " Passenger Name required");
@@ -103,26 +87,14 @@ mysqli_query($db,$sql);
       array_push($errors, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wrong Credential Combination or Amount is Insufficient, Please review your amount in eCASH");
                             
  		}
-
 }
-		
  		} 
-
-
-    
 ?>
 
 
 <br>
 
 <form>
-    <!--formmethod="post" action="index.php">-->
-  <!--  <style>
-    body{
-    background-image: url("../images/mountaino.jpg");
-  }
-    </style> -->
-
       <div class="input-group">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label class="radio-inline"><input type="radio" name="optradioo" value="roundtrip">Round Trip</label>

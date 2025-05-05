@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php include('userheader.php'); ?>
-  <link rel="stylesheet" type="text/css" href="../index.css">
+  <link rel="stylesheet" type="text/css" href="../public/assets/css/index.css">
 </head>
 <body>
 
@@ -10,8 +10,8 @@
 
 <?php include('server.php'); 
 // if user is not logged in they cannot access this page
-                                              if (empty($_SESSION['username'])) { //ekdam important for security turn it on after finished
-                                header('location: login.php'); }
+if (empty($_SESSION['username'])) { //ekdam important for security turn it on after finished
+header('location: login.php'); }
 //}?>
 
 <!DOCTYPE html>
