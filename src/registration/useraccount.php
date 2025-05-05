@@ -19,9 +19,6 @@ $username=$_SESSION['username'];?>
  	<p>
  		<label>Please enter your email id and password to view your details</label> <br><br>
  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- 	<!--	<label>Email id:&nbsp;&nbsp;</label>
- 		<input type="Email" id="user" name="username" placeholder="airtra@gmail.com"/>
--->
  		<label>Password:</label>
  		<input type="password" id="pass" name="password" placeholder="password"/>
 
@@ -34,10 +31,9 @@ $username=$_SESSION['username'];?>
 <?php 
  $username = "";
   $password = "";
-$username=$_SESSION['username'];
+echo $username;
 $db = mysqli_connect('localhost', 'root','','airtra');
  if (isset($_POST['login'])) {
- 	//$username = addslashes($_POST['username']);
  	$password = addslashes($_POST['password']);
        //ensure that the form fields are filled properly
  	if(empty($username)) {
@@ -77,12 +73,6 @@ $db = mysqli_connect('localhost', 'root','','airtra');
 		");
 
 		echo  nl2br("\n"); echo  nl2br("\n");
-
-		//search flight history via flight id
-      //include ('../airport/searchflightviaid.php'); 
-
-
-
 		}
 
 	}          echo("</tbody></table>");

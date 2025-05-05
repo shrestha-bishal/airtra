@@ -80,26 +80,13 @@ background-color: #036C83; /* Green */
 <a href="../help.php"><button class="button"><b>Help</b></button></a>
 <a href="feedback.php"><button class="button"><b>Feedback</b></button></a>
 <a href="useraccount.php"><button class="button"><b>Account</b></button></a>
-
-
-
 </body>
-
-
-
-
-
-
-
-        
-    <?php include('../slidenew.php'); ?> <!--
-        <img src="../images/mountaino.jpg" width="1332" height="300"/> <br>  -->
+    <?php include('../adminpanel/slidenew.php'); ?> 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <form2> <a class="button2" href="http://google-maps.pro/satellite/Nepal" target="_blank">Map of Nepal</a> </form2>
      <form2> <a class="button2" href="https://earth.google.com/web/" target="_blank">Google Earth</a></form2>
           <form2> <a class="button2" href="https://planefinder.net//" target="_blank">See Flights above You</a></form2>
   	</div>
-  	<!-- <form1><a class="btn" href="flight">Flight</a></form> -->
 <flight>
 
       <?php include ('../search_flight.php'); ?>
@@ -108,8 +95,8 @@ background-color: #036C83; /* Green */
 </flight>
     <body>
 
-<?php echo file_get_contents("../flights.php"); ?>
-<?php echo file_get_contents( "../topdestination.php" ); // get the contents, and echo it out. ?>
+<?php echo file_get_contents("../adminpanel/flights.php"); ?>
+<?php echo file_get_contents( "topdestination.php" ); // get the contents, and echo it out. ?>
  </body>
 </body>
 <form>
