@@ -1,4 +1,4 @@
-<?php include('../header.php'); //include('server.php'); ?>
+<?php include('../header.php'); include('server.php'); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,7 +8,7 @@
 	<body>
 		<div id="frm">
 			<form method="post" action="login.php"> 
-			<?php // include('errors.php'); ?>
+			<?php include('errors.php'); ?>
 
 			<p>
 				<label>Email id:&nbsp;&nbsp;</label>

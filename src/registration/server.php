@@ -89,7 +89,7 @@
 
  		$query = "SELECT * FROM admin_info WHERE email='$username' AND password='$password'";
  		$result = mysqli_query($db,$query);
- 		if (mysqli_num_rows($result) ==1) {
+		if (mysqli_num_rows($result) ==1) {
  			//log user in
  			$_SESSION['username'] = $username;
  		    $_SESSION['success'] = "You are now logged in";
