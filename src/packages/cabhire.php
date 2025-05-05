@@ -1,16 +1,17 @@
-<?php include('cabhireserver.php'); include('../header.php'); ?>
+<?php //include('cabhireserver.php'); 
+include('../header.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="../registration/style.css">
+	<link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
         
 	<div class="header"> <h2>Cab Hire</h2> </div>
     <form method="post" action="cabhire.php">
         <!-- display validation errors here -->
-        <?php include('../registration/errors.php'); ?>
+        <?php //include('../registration/errors.php'); ?>
 <form method="post" action="cabhire.php">
 	<div class="input-group"> <label>Name</label> <input type="Name" name="username"> </div>
     <div class="input-group"> <label>Address</label> <input type="Address" name="address"> </div>
@@ -25,6 +26,6 @@
 </form>  </form>
 </body>
 </html>
-<div> <style> body{ background-image: url("../images/cabhire.jpg");  background-size: 1400px 900px; } 
+<div> <style> body{ background-image: url("../public/assets/img/cabhire.jpg");  background-size: 1400px 900px; } 
 </style> </div>
 <?php echo file_get_contents("../copyright.php"); ?>

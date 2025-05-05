@@ -5,13 +5,6 @@
 
 	<h5>Search Domestic Flights:  </h5>
 <form>
-
-    <!--formmethod="post" action="index.php">-->
-  <!--  <style>
-    body{
-    background-image: url("../images/mountaino.jpg");
-  }
-    </style> -->
       <div class="input-group">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label class="radio-inline"><input type="radio" name="optradio" value="roundtrip">Round Trip</label>
@@ -89,7 +82,7 @@
 <?php include('../search_flight_server.php'); ?>
 
 
-<label>Domestic Flights</label> <br> <img src="../images/domestic_nepal.jpg" width="1332" height="396" > 
+<label>Domestic Flights</label> <br> <img src="../public/assets/img/domestic_nepal.jpg" width="1332" height="396" > 
 <p>Domestic Flights via AirTra provides all the domestic sector flights ticket in Nepal for your Journey. Traveling by Vehicle in Nepal may not be comfortable and reliable , it may take long time to reach destination so travelling by domestic flights & Airlines in Nepal is secure and comfortable and can save you your valuable time. Also Domestic Flights gives you access to lots of remotes area in Nepal where you can travel only by flights and no other transportation so AirTra access you all the domestic sector by  providing  you domestic Airlines ticket at affordable cost.</p> 
 <body>
 <a href="bookdomesticflight.php"><p style="font-size: 14px; color: Blue; font-weight: bold;font-style: italic;"> Kathmandu-Pokhara Flight</p></a>

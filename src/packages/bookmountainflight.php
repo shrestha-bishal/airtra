@@ -2,12 +2,6 @@
 <h5>Search Mountain Flights:  </h5>
 <br>
 <form>
-    <!--formmethod="post" action="index.php">-->
-  <!--  <style>
-    body{
-    background-image: url("../images/mountaino.jpg");
-  }
-    </style> -->
       <div class="input-group">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <label class="radio-inline"><input type="radio" name="optradio" value="roundtrip">Round Trip</label>
@@ -17,51 +11,12 @@
   <select name="From" class="form-control" placeholder="From" required>
   <option value="Kathmandu">Kathmandu</option>
   <option value="Lukla">Lukla</option>
- <!-- 
-  <option value="Kualalumpur">Kualalampur (Malasia)</option>
-  <option value="London">London (England)</option>
-  <option value="New York">New York (USA)</option>
-  <option value="Dallas">Dallas (USA)</option>
-  <option value="Texas">Texas (USA)</option>
-  <option value="Karachi">Karachi (Pakistan)</option>
- <!-- <option value="talcha">Talcha (Mugu)</option>
-  <option value="simikot">Simikot (Humla)</option>
-  <option value="bhadrapur">Bhadrapur</option>
-  <option value="biratnagar">Biratnagar</option>
-  <option value="simara">Simara</option>
-  <option value="janakpur">Janakpur</option>
-  <option value="tumlingtar">Tumlingtar</option>
-  <option value="bhojpur">Bhojpur</option>
-  <option value="phalpu">Phalpu</option>
-  <option value="kangeldanda">Kangel Danda</option>
-  <option value="lamidanda">Lamidanda</option>
-  <option value="jufal">Jufal</option>  -->
-
   
   </select>     </label>
         <label>To:
   <select name="To" class="form-control"  placeholder="To" required>
   <option value="Lukla">Lukla</option>
   <option value="Kathmandu">Kathmandu</option>
-  <!--<option value="Dallas">Dallas (USA)</option>
-  <option value="Texas">Texas (USA)</option>
-    <option value="Kathmandu">Kathmandu (Nepal)</option>
-  <option value="London">London (England)</option>
-  <option value="Delhi">Delhi (India)</option>
-  <option value="Kualalumpur">Kualalumpur (Malasia)</option>
-  <option value="Karachi">Karachi (Pakistan)</option>
- <!-- <option value="biratnagar">Biratnagar</option>
-  <option value="jumla">Jumla</option>
-  <option value="talcha">Talcha (Mugu)</option>
-  <option value="simikot">Simikot (Humla)</option>
-  <option value="bhadrapur">Bhadrapur</option>
-  <option value="bhojpur">Bhojpur</option>
-  <option value="phalpu">Phalpu</option>
-  <option value="kangeldanda">Kangel Danda</option>
-  <option value="lamidanda">Lamidanda</option>
-  <option value="janakpur">Janakpur</option>
-  <option value="tumlingtar">Tumlingtar</option>
-  <option value="jufal">Jufal</option>  -->
  </select>   </label>
 
         <label>Depart:</label> <input type="Date" name="Depart" style="height: 20px">
