@@ -90,6 +90,6 @@ $airbusid = $_GET['airbusid'];
 <br>
 <label>Domestic Airbus cabin</label>
 <p style="color: BLUE">FC: First Class | BC: Business Class | EC: Economy Class</p> <br>
-<img src="../images/cabin.jpg" width="1332" height="1332" /> <br>
+<img src="../public/assets/img/cabin.jpg" width="1332" height="1332" /> <br>
 
 <?php include('../copyright.php'); ?>
