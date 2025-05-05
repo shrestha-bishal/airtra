@@ -22,8 +22,6 @@
     $pickupdate = addslashes($_POST['pickupdate']); 
     $pickuptime = addslashes($_POST['pickuptime']); 
 
-
-
  	//ensure that form fields are filled properly
  	if(empty($username)) {
  		array_push($errors, "Full Name is required");

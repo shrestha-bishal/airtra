@@ -1,4 +1,4 @@
-<?php //include('cabhireserver.php'); 
+<?php include('cabhireserver.php'); 
 include('../header.php'); ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@ include('../header.php'); ?>
 	<div class="header"> <h2>Cab Hire</h2> </div>
     <form method="post" action="cabhire.php">
         <!-- display validation errors here -->
-        <?php //include('../registration/errors.php'); ?>
+        <?php include('../registration/errors.php'); ?>
 <form method="post" action="cabhire.php">
 	<div class="input-group"> <label>Name</label> <input type="Name" name="username"> </div>
     <div class="input-group"> <label>Address</label> <input type="Address" name="address"> </div>
