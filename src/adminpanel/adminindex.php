@@ -85,6 +85,7 @@ background-color: #036C83; /* Green */
 <a href="../about.php"><button class="button"><b>About</b></button></a>
 <a href="../help.php"><button class="button"><b>Help</b></button></a>
 <a href="viewfeedback.php"><button class="button"><b>Feedback</b></button></a>
+<a href="adminaccount.php"><button class="button"><b>Account</b></button></a>
 
 </body>
     <?php require('slidenew.php'); ?>

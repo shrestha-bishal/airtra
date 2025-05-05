@@ -76,11 +76,6 @@ $db = mysqli_connect('localhost', 'root','','airtra');
 
 		echo  nl2br("\n"); echo  nl2br("\n");
 
-		//search flight history via flight id
-      //include ('../airport/searchflightviaid.php'); 
-
-
-
 		}
 
 	}          echo("</tbody></table>");
