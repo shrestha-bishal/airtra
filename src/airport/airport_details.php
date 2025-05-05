@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>AirTra: Search | Travel | Explore</title>
-    <link rel="stylesheet" type="text/css" href="../registration/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
 	<form1> <a class="btn" href="../adminpanel/adminindex.php">AIRTRA Home</a> </form1>
@@ -53,7 +53,7 @@
 
 <style>
  body{
-    background-image: url("../images/airtrajoin.jpg");
+    background-image: url("../public/assets/img/airtrajoin.jpg");
     background-size: 1400px 900px;
     background-repeat: no-repeat;
     }

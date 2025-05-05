@@ -14,4 +14,4 @@
     cursor: pointer;
 }</style>
 
-<form1> <a class="button" href="../airport/airport_details.php">Add Airport Details</a> </form1>
+<form1> <a class="button" href="airport_details.php">Add Airport Details</a> </form1>

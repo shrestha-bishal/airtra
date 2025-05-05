@@ -3,10 +3,10 @@
 <html>
 <head>
 		<title>AirTra: Search | Travel | Explore</title>
-    <link rel="stylesheet" type="text/css" href="../registration/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
-	<form1> <a class="btn" href="../adminpanel/adminindex.php">AIRTRA Home</a> </form1>
+	<form1> <a class="btn" href="adminindex.php">AIRTRA Home</a> </form1>
 	<div class="header">
 		<h2>Admin Registration</h2>
 	</div>

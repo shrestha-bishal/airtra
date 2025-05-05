@@ -70,17 +70,6 @@ echo "<td>" .$row[15] ."</td>";
 
 echo "</tr>";
 echo "</table>";
-
-
-/*
-echo "<td>" .$row[16] ."</td>";
-echo "<td>" .$row[17] ."</td>";
-echo "<td>" .$row[18] ."</td>";
-			echo("<tr><td id='InstanceId' style=\"display: none;\">".$row[0]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td>"
-		. $row[1]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[2]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[3]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[4]. "</td><td>&nbsp;&nbsp;&nbsp;".$row[5]."</td><td>&nbsp;&nbsp;&nbsp;".$row[6]."</td><td>&nbsp;&nbsp;&nbsp;</td><td>&nbsp;".$row[7]."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$row[8]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"  .$row[9]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[10]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[11]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[12]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;|||" .$row[13]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|" .$row[14]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|" .$row[15]."</td></tr>&nbsp;|||     ".$row[16]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|  ".$row[17]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|".$row[18]."</td><tr> &nbsp;|");
-
-
-		echo  nl2br("\n"); echo  nl2br("\n"); */
 		}
 	}
 		echo("</tbody></table>");
