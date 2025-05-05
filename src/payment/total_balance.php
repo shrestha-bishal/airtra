@@ -66,24 +66,9 @@ echo "<td>" .$row[3] ."</td>";
 echo "<td>" .$row[4] ."</td>";
 echo "</tr>";
 echo "</table>";
-
-			/*
-			echo("<tr><td id='InstanceId' style=\"display: none;\">".$row[0]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			".$row[1]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			".$row[2]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			".$row[3]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			".$row[4]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|</td><td>");
-*/
-
 		}
 	}
 		echo("</tbody></table>");
         } 
-
-
-
-
-
-
 ?>
 <?php include('../copyright.php'); ?>
