@@ -54,17 +54,7 @@ echo "</table>";
 
         } 
                  else { echo("No eCASH Transaction");   }
-
-
-
-
-
-
-
 ?>
-
-
-
 
 <?php include('../copyright.php'); ?>
 
