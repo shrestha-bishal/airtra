@@ -101,7 +101,7 @@ background-color: #036C83; /* Green */
 </flight> 
     <body>
 
-<?php echo file_get_contents("../flights.php"); ?>
+<?php echo file_get_contents("flights.php"); ?>
 
  </body>
 </body>
