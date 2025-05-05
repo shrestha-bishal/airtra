@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 <html>
 <head>
 	<title>AirTra: Search | Travel | Explore</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
 
@@ -37,29 +37,11 @@ if (isset($_POST['submit'])) {
  </div>
   <style>
  body{
-    background-image: url("../images/feedback.jpg");
+    background-image: url("../public/assets/img/feedback.jpg");
     background-size: 1400px 700px;
     background-repeat: no-repeat;
     }
 </style>
-<!-- <div id="frm">
- 	<form action="process.php" method="POST"> 
- 	<p>
- 		<label>Username:</label>
- 		<input type="text" id="user" name="user" />
- 	</p>
- 	<p>
- 		<label>Password:</label>
- 		<input type="password" id="pass" name="pass" />
- 	</p>
- 	<p>
- 		<input type="submit" id="btn" value="Login" /> <a href="user.php"></a>
- 	</p>
- 	<p>Not a member yet? <a href="../registration/register.php">Register</a> </p>
-
- 	</form>
- </div> -->
-
 </body>
 </html>
 
