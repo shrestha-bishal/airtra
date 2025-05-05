@@ -1,4 +1,4 @@
-<?php //include('server.php'); ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +13,7 @@
 
 	<form method="post" action="register.php">
 		<!-- display validation errors here -->
-		<?php // include('errors.php'); ?>
+		<?php include('errors.php'); ?>
 		<div class="input-group">
 			<input type="text" name="username" placeholder="Full Name" style="height:35px" size="36" value="<?php echo $username; ?>">
 		</div>

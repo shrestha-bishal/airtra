@@ -1,4 +1,4 @@
-<div><style> body {background-image: url("../images/hotelroommalla.jpg"); background-size: 1400px 900px; } </style></div>
+<div><style> body {background-image: url("../public/assets/img/hotelroommalla.jpg"); background-size: 1400px 900px; } </style></div>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,12 +9,6 @@
 <body>
 
 	<form>
-  
-  	 
-  	<!--  <input type="text" name="bishal" title="first name" style="color: #888;" value="First naems" onfocus="inputFocus(this)" onblur="inputBlur(this)"/>
-  	<input type="email" placeholder="email address" >    
-
-  	-->
   	<div class="input-group">
   	  <label>Hotels and Apartments </label> <br>
   	  <h20>AirTra helps you find the best deals for free.</h20> <br>
