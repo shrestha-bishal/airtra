@@ -9,6 +9,6 @@ flights to find you the cheapest deal, fast. Whether you want to go to Tenerife 
 
 <p>Acclaimed flight comparison <br> AirTra has been consistently found to be comprehensive, fast, and the best way to find cheap flights</p>
 
-<p>Let’s get social! <br> Join us for hot deals, top tips and travel inspiration on <a href="https://www.facebook.com/bishal.stha09" target="_blank">Facebook</a>,<a href="https://twitter.com/BishalSthaa" target="_blank">Twitter</a>,<a href="https://www.instagram.com/bishal___/" target="_blank">Instagram</a>.</p>
+<p>Let’s get social! <br> Join us for hot deals, top tips and travel inspiration on our Facebook, Twitter, Instagram.</p>
 </body>
 </html>
