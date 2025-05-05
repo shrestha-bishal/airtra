@@ -23,7 +23,6 @@
 	$fromAirport = $_GET['From'];
 	$toAirport = $_GET['To'];
 	$Depart = $_GET['Depart'];
-	//$Return = $_GET['Return'];
 /*
   	$link_address='../airport/bookflights.php'; echo ('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="'.$link_address.'">Book Flight Now?</a>');  */
 	echo("<h3>Showing ONEWAY Flights | From: ".$fromAirport." | To: ".$toAirport." | Depart Date: ".$Depart." </h3>"); 
@@ -71,7 +70,6 @@ echo ("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
           FC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            BC&nbsp;&nbsp;&nbsp;&nbsp;
            EC&nbsp;"); echo  nl2br("\n"); echo  nl2br("\n");
-        //|||FC&nbsp;&nbsp;&nbsp;&nbsp;|BC&nbsp;&nbsp;&nbsp;&nbsp;|EC&nbsp;		
         if(mysqli_num_rows($result)>0){
 
         	while(($row = mysqli_fetch_row($result))!=null)
@@ -86,12 +84,6 @@ echo "<td>" .$row[1] ."</td>";
 echo "<td>" .$row[2] ."</td>"; echo "<td>" .$row[3] ."</td>"; echo "<td>" .$row[4] ."</td>";echo "<td>" .$row[5] ."</td>"; echo "<td>" .$row[6] ."</td>"; echo "<td>" .$row[7] ."</td>"; echo "<td>" .$row[8] ."</td>"; echo "<td>" .$row[9] ."</td>";echo "<td>" .$row[10] ."</td>";echo "<td>" .$row[11] ."</td>";echo "<td></td>";echo "<td>" .$row[13] ."</td>";echo "<td>" .$row[14] ."</td>";echo "<td>" .$row[15] ."</td>";
 echo "</tr>";
 echo "</table>";
-
-			/*
-			echo("<tr><td id='InstanceId' style=\"display: none;\"></td><td>"
-		. $row[1]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[2]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[3]. "</td><td>&nbsp;&nbsp;&nbsp;" .$row[4]. "</td><td>&nbsp;&nbsp;&nbsp;".$row[5]."</td><td>&nbsp;&nbsp;&nbsp;".$row[6]."</td><td>&nbsp;&nbsp;&nbsp;</td><td>&nbsp;".$row[7]."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$row[8]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"  .$row[9]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[10]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[11]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" .$row[12]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;|||" .$row[13]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|" .$row[14]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|" .$row[15]."</td></tr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ");
-			// |||".$row[16]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|  ".$row[17]."</td><tr>&nbsp;&nbsp;&nbsp;&nbsp;|".$row[18]."</td><tr> &nbsp;|  echo  nl2br("\n");*/
-
 		echo  nl2br("\n"); 
 		}
 
@@ -185,51 +177,6 @@ echo "</table>";
                  else { echo("We are sorry! We do not have any onward flights for this route.");   }
 
 }
-
-
-
-
-
   }
   ?>
 </div>
-<!-- Display filghts -->
-<!--List reservations-->
-
-
-
- <?php
-
-
-
-
-?>
-
- <!-- <div id="services" class="container-fluid text-center">
- if(isset($_GET['optradio']))
-  {
-	$fromAirport = $_GET['From'];
-	$toAirport = $_GET['To'];
-    $Depart = $_GET['Depart'];
-	$Return = $_GET['Return'];
-	$link = mysqli_connect('localhost', 'root', '', 'airtra');
-	//retrieve flights
-
-$query = "SELECT * FROM addflight WHERE From_airport_id='$fromAirport' AND To_Airport_id='$toAirport' AND Datee = '$Depart' AND rdatee='$Return'";
-$result=mysqli_query($link,$query);
-//if ($value = mysqli_fetch_array($result)) {
-	//echo $value["flights"];  
-//}
-
-if (mysqli_num_rows($result)>0) {
-     echo "Connected";
- } 
-else {
-	echo("We are sorry! We do not have any onward flights for this route.");
-}
-
-while ($row = mysqli_fetch_array($result)) {
-	echo $row ;
-}
-
-}  -->

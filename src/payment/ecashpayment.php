@@ -94,86 +94,26 @@ $reserved = "Booked";
 $sql= "INSERT INTO  airtra_draft (amount, timee, datee, status) VALUES ('$cash', '$time', '$date', '$reserved') ";
 mysqli_query($db,$sql);
 
- //echo "Result:" .$row['balance'];
-
-/*
-$query = "SELECT *FROM ecash WHERE userid='$userid' ";
- $result= mysqli_query($db,$query);
-if (mysqli_num_rows($result)==1) {
-
-	$query = "SELECT $result-$cash AS   WHERE userid='$userid'";
- $result= mysqli_query($db,$query);
-////////////////////////////////
-	$query = "SELECT balance *FROM ecash  WHERE userid='$userid'";
- $result= mysqli_query($db,$query);
- 	$query = "SELECT airtra_fair *FROM seats_availability  WHERE seat_no='$seatno'";
- $resu= mysqli_query($db,$query);
-$diduct = $result- $resu;
-  $sql = "UPDATE ecash SET balance='$diduct' WHERE userid='$userid' ";
-   mysqli_query($db, $sql);
-
-}
-*/
-
-////////////////////////////
 $reserved = "Booked";
    $sql = "UPDATE seats_availability SET status='$reserved' WHERE seat_no='$seatno' ";
    mysqli_query($db, $sql);
-
-
-
 }
 
 else { echo "Enterred Flight Fare is insufficient, Please review your amount"; }
-
-
-/*         Update  
-$sql = "UPDATE ecash ". "SET balance = '$balance' ";
-   mysqli_query($db, $sql);
-
-
- 		$query = "SELECT * FROM ecash WHERE userid='$userid' AND password='$password_1'";
- 		$result = mysqli_query($db,$query);
- 		if (mysqli_num_rows($result) ==1) {
-   $random_hash = substr(md5(uniqid(rand(), true)), 16, 16);
-
-$sql = "INSERT INTO ecash (paymentid, userid, password) VALUES ('$random_hash','$userid', '$password_1')";
- 		mysqli_query($db, $sql);
- echo("Please Copy the Confirmation ID and paste in the booking section for confirmation validation: &nbsp;" );
-echo "$random_hash";
-$sql = "UPDATE ecash ". "SET balance = '$balance' ";
-   mysqli_query($db, $sql);
-
-   
-*/
- 		    
  		}
  		 		else{
  			array_push($errors, "wrong user id/password combination");
  		} 
 
  	}
-
-
  }
  ?>
 
-
-
-<!--
-$sql = "SELECT value FROM ecash WHERE userid= '$userid' AND balance='test.flag';";
-    $result = mysqli_query($db, $sql);
-    echo "<p>".$result."</p><br>";
-echo "$result";
- 		$difference = $balance - $cash;
-        $balance=$difference;
-
--->
 <!DOCTYPE html>
 <html>
 <head>
 
-    <link rel="stylesheet" type="text/css" href="../registration/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/assets/css/style.css">
 </head>
 <body>
 	<div class="header">
@@ -221,8 +161,7 @@ echo "$result";
 
 <style>
  body{
-    background-image: url("../images/esewaa.jpg");
-
+    background-image: url("../public/assets/img/esewaa.jpg");
       background-size: 450px 400px;
     background-repeat: repeat;
 
